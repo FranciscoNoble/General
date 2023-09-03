@@ -1,0 +1,51 @@
+p{
+    transition: ease-in 500ms;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+    
+}
+.dados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 100%;
+    height: 0%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: dimgrey;
+    border-radius: 5%;
+    
+
+}
+.img{
+    margin: 3%;
+    width: 10%;
+    height: 10%;
+    border-radius: 12%;
+    transition: ease-in 600ms;
+}   
+.imgs{
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    border-radius: 10%;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#break{
+    width: 100%;
+}
