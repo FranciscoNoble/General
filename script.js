@@ -36,6 +36,7 @@ function getRandomInt() {
     cliques = 0;
     function rolada(){
         cliques++
+        general = 0;
         document.getElementById('test2').innerHTML = cliques;
         document.getElementById('test').innerHTML = null;
         const reults = [];
@@ -118,7 +119,7 @@ function getRandomInt() {
         }
         else if(iguais[4] == 5){
             document.getElementById('test').innerHTML = 'general?';
-            window.alert('general?');
+            general = 1;
         }
         else{
             document.getElementById('test').innerHTML = 'no bitches?';
@@ -142,6 +143,9 @@ function getRandomInt() {
             iguais[i]--;  
             img = document.getElementById(i + 1);
             img.src = './assets/'+reults[i]+'.png'
+        }
+        if(general == 1){
+            window.alert('general?');
         }
         console.log(reults);
         
