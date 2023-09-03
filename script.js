@@ -142,7 +142,9 @@ function getRandomInt() {
             iguais[i]--;
             iguais[i]--;  
             img = document.getElementById(i + 1);
-            img.src = './assets/'+reults[i]+'.png'
+            icon = document.getElementById('favicon');
+            img.src = './assets/'+reults[i]+'.png';
+            icon.href = './assets/'+reults[i]+'.png';
         }
         if(general == 1){
             window.alert('general?');
